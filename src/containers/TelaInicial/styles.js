@@ -12,7 +12,7 @@ export const Header = styled.header`
 background: url(${background})no-repeat center center;
 background-size: cover;
 display: flex;
-height: 86px;
+height: 200px;
 align-items: center;    
 color:#fff; 
 
@@ -24,8 +24,8 @@ nav{
     padding: 0 20px;
     color:#fff; 
 img{
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
 }
 h3{
     font-size: 20px; 

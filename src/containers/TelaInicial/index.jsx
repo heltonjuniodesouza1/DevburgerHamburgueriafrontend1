@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import {ContainerPrincipal, Container,Header} from './styles'
-import Hamburger from '../../assets/hamburguer.png'
+import Hamburger from '../../assets/HAMBUGUERES.jpg'
 import Logo from '../../assets/Logo1.svg'
 export function TelaInicial(){
 
@@ -27,9 +27,9 @@ export function TelaInicial(){
         </Header>
         <ContainerPrincipal>
             <div className="parte_esquerda">
-                <h1>O melhor da <span>Cidade</span> </h1>
+                <h1>O melhor Hamburguer de Minas  </h1>
                 <div>
-                <p>Feito especialmente para <span>Você!</span> </p>
+                <p>Feito para <span>Você!</span> </p>
                 </div>
             </div>
             <div className="parte_direita">

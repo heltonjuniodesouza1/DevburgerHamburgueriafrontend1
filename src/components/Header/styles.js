@@ -5,7 +5,7 @@ import {ShoppingCart} from '@phosphor-icons/react';
 export const  Container = styled.div`
  
 background-color: #1f1f1f;
-height: 72px;
+height: 80px;
 width: 100%;
 padding:  0 56px;
 `;
@@ -22,7 +22,7 @@ export const  Navigation = styled.nav`
  display: flex;
  align-items: center;
  justify-content: center;
- height: 72px;
+ height: 80px;
  
  div{
     margin-left: 56px;
@@ -46,7 +46,7 @@ export const  HeaderLink = styled(Link)`
       border-radius: 7px;
       color: ${ props => props.$isActive ? '#9758a6' : '#fff'};
       border-bottom: ${props => props.$isActive? '1px solid #9758a6 ' : ' '};
-      font-size: 14px;
+      font-size: 20px;
      transition: color 200ms;
 
       &:hover{
